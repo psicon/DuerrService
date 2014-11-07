@@ -1,0 +1,183 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:100);
+ 
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+   	font-size: 100%;
+	font: inherit;
+ 	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+ /* CSS Styleguideanpassungen */
+.headerimg {
+    max-height: 30px;
+    width:auto; 
+	top:2px;
+	margin-bottom:2px;	
+  }
+ 
+input {
+	border: none;
+	
+} 
+input:focus {
+    outline: none !important;
+    border:1px solid 00bbef;
+    box-shadow: 0 0 10px #00bbef;
+}
+
+body {
+    font-family: 'Roboto';
+		line-height: 1;
+
+}
+
+
+.pane {
+  background: #000;
+}
+
+
+.menu.menu-left {
+  background: #000;
+}
+
+.menu .scroll-content {
+	background-image: url('../img/back2.jpg');
+	background-size: cover;
+	}
+.menu .item {
+   color: #747474;
+  border:none;
+  
+}
+
+.menu-content{
+	  -webkit-transform: none;
+  -moz-transform: none;
+  transform: none;
+	  box-shadow: -20px 0px 40px rgba(0, 0, 0, 0.2), -1px 0px 22px rgba(0, 0, 0, 0.2); }
+ 
+
+
+/* ---------- LOGIN ---------- */
+
+.start {
+	background-image: url('../img/back.jpg');
+	background-size: cover;
+	
+	}
+	
+	.home {
+background-image: url('../img/back2.jpg');
+	background-size: cover;
+	
+	}
+
+
+#login {
+   width: 90%;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top:10%;
+   top: 20pt;
+ 	
+}
+
+#login h2 {
+	background-color: #00bbef;
+	-webkit-border-radius: 20px 20px 0 0;
+	-moz-border-radius: 20px 20px 0 0;
+	border-radius: 20px 20px 0 0;
+	color: #fff;
+	font-size: 20px;
+	
+	padding: 14px 26px;
+	margin-bottom:0px;
+
+}
+
+#login h2 span[class*="fontawesome-"] {
+	margin-right: 14px;
+}
+
+#login fieldset {
+	background-color: #fff;
+	-webkit-border-radius: 0 0 21px 21px;
+	-moz-border-radius: 0 0 20px 20px;
+	border-radius: 0 0 20px 20px;
+	padding: 14px 26px;
+}
+
+#login .loginheader{margin-left:2px; margin-right:2px;}
+
+#login fieldset p {
+	color: #777;
+	margin-bottom: 14px;
+}
+
+#login fieldset p:last-child {
+	margin-bottom: 0;
+}
+
+#login fieldset input {    
+	font-family: 'Roboto';
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+#login fieldset input[type="user"], #login fieldset input[type="password"] {
+	background-color: #eee;
+	color: #777;
+	padding: 7px 10px;
+	width: 100%;
+}
+
+#login input:focus {
+    outline: none !important;
+    border:1px solid 00bbef;
+    box-shadow: 0 0 10px #00bbef;
+}
+
+#login fieldset input[type="submit"] {
+	background: #f78d1d;
+	background: -webkit-gradient(linear, left top, left bottom, from(#a9ecff), to(#00bbef));	color: #fff;
+	display: block;
+	margin: 0 auto;
+	padding: 4px 0;
+	width: 140px;
+}
+
+#login fieldset input[type="submit"]:hover {
+background: #f78d1d;
+	background: -webkit-gradient(linear, left top, left bottom, from(#a9ecff), to(#a8ecff));}
